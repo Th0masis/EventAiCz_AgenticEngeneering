@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Riepilogo della sessione 1",
+  dataTitle: "Riepilogo della sessione 1",
+  eyebrow: "Riepilogo sessione 1",
+  h11: "Domande &amp; prossimi passi",
+  aria2: "Struttura della discussione",
+  h31: "Domande",
+  p1: "Domande?",
+  h32: "Prossimamente: Sessione 2 · L'agentic engineering spiegato",
+  li1: "Come funziona un harness: LLM, finestra di contesto, tool",
+  li2: "Workflow dell'agente e modalità Plan",
+  li3: "Subagent e orchestrazione",
+  li4: "Gestione delle sessioni dell'agente e memoria agentica",
+  li5: "Livello di ragionamento, modelli e costi",
+});

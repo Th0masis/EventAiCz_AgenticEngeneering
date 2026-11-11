@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Befehle: gespeicherte, wiederverwendbare Prompts",
+  eyebrow: "Customizations · Befehle",
+  title: "Befehle: wiederverwendbare Prompts",
+  p1: "Aufträge, Routinen, Aufgaben. Auch bekannt als Slash-Befehle oder Prompt-Dateien.",
+  label1: "Was und wann",
+  li1: "Ein <strong>getesteter Prompt</strong>, als Datei gespeichert und mit <code>/name</code> gestartet.",
+  li2: "Gut für Routinen: Code-Reviews, Release Notes, Commit-Nachrichten.",
+  li3: "Formate sind <strong>Harness-spezifisch</strong>: <code>.claude/commands/*.md</code>, <code>.github/prompts/*.prompt.md</code>, Plugin-<code>commands/</code>.",
+  li4: "<strong>Trend:</strong> Skills lassen sich auch mit <code>/skill-name</code> aufrufen. Dauerhaftes Wissen → Skill; persönliche Routinen → Befehl.",
+  li5: "<strong>Meta-Prompting:</strong> bitten Sie den Agent nach einer guten Sitzung, daraus einen Befehl oder Skill zu machen.",
+  codeCaption1: "plugins/as-skills/commands/branch-code-review.md (Auszug)",
+  strong1: "Verwendung",
+  p2: "Geben Sie <code>/</code> im Chat ein, um die verfügbaren Befehle zu sehen. Der Text nach dem Befehl wird zum Argument.",
+});

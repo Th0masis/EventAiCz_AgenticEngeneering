@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Zusammenfassung Session 4",
+  dataTitle: "Zusammenfassung Session 4",
+  eyebrow: "Zusammenfassung Session 4",
+  h11: "Fragen &amp; nächste Schritte",
+  aria2: "Struktur der Diskussion",
+  h31: "Fragen",
+  p1: "Haben Sie Fragen?",
+  h32: "Als Nächstes: Session 5 · as-cli",
+  li1: "Warum CLI-Tools zu Agentic Engineering passen",
+  li2: "Deterministische Tools",
+  li3: "as-cli: was es ist und was es kann",
+  li4: "Der komplette Ablauf: Planen → Umsetzen → Verifizieren → Testen",
+  li5: "Vollständige Live-Demo auf ARsim",
+});

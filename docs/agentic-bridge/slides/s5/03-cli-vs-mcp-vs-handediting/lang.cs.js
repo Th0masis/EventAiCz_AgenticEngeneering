@@ -1,0 +1,16 @@
+I18N.strings({
+  aria: "Jak agent pracuje s projektem AS",
+  eyebrow: "as-cli · Proč CLI nástroje?",
+  title: "Jak agent pracuje s projektem AS",
+  label1: "Zapisuje soubory přímo",
+  li1: "<strong>Kdy</strong>: aplikační kód.",
+  li2: "<strong>Příklad</strong>: Structured Text v <code>LiftJog.st</code>, vedený skillem.",
+  label2: "Používá MCP server",
+  li3: "<strong>Kdy</strong>: potřebuje znalosti nebo externí systém.",
+  li4: "<strong>Příklad</strong>: přes B&amp;R MCP server zjistit, co znamená chyba při buildu; HMI proklikat nástrojem Playwright.",
+  label3: "Spouští CLI nástroj",
+  li5: "<strong>Kdy</strong>: mění strukturu projektu nebo potřebuje ověřený výsledek.",
+  li6: "<strong>Příklad</strong>: <code>as logical add</code>, <code>as build</code>, <code>as plc var read</code>.",
+  strong1: "Agentic Bridge používá všechny tři",
+  p1: "Skills řídí kód. MCP zajišťuje znalosti. <strong>as-cli</strong> provádí a ověřuje změny.",
+});

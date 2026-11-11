@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agentic Bridge · Using B&amp;R tools for agentic engineering</title>
+    <meta name="description" content="A five-session, harness-independent training: Introduction; Agentic Engineering Explained; Tools; Customizations; and B&amp;R as-cli." />
+    <meta name="theme-color" content="#262626" />
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/agentic-bridge-icon-64.png" />
+    <link rel="stylesheet" href="assets/deck.css" />
+    <link rel="stylesheet" href="../shared/lang-select.css" />
+  </head>
+  <body>
+    <main class="deck" aria-live="polite">
+      <!-- Slides are injected from slides/<session>/<slide>/page.js -->
+    </main>
+
+    <div class="nav-panel" role="dialog" aria-label="Slide navigator" data-i18n-aria-label="slideNavigator" aria-hidden="true">
+      <div class="nav-head">
+        <span class="nav-brand"><img src="assets/agentic-bridge-icon.svg" alt="" />Agentic Bridge</span>
+        <nav class="nav-tabs" aria-label="Sessions" data-i18n-aria-label="sessions"></nav>
+        <a class="nav-home" href="../index.html" title="Return to presentation index" data-i18n-title="homeTitle" data-i18n="home">Home</a>
+        <button class="nav-close" type="button" aria-label="Close slide navigator" data-i18n-aria-label="closeNavigator">&times;</button>
+      </div>
+      <div class="nav-body"></div>
+    </div>
+
+    <div class="progress-shell" role="navigation" aria-label="Slide progress" data-i18n-aria-label="slideProgress">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open slide navigator (G)" title="Slides (G)" data-i18n-aria-label="openNavigator" data-i18n-title="slidesTitle">
+        <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+          <rect x="2" y="2" width="7" height="7" rx="1.5" />
+          <rect x="11" y="2" width="7" height="7" rx="1.5" />
+          <rect x="2" y="11" width="7" height="7" rx="1.5" />
+          <rect x="11" y="11" width="7" height="7" rx="1.5" />
+        </svg>
+      </button>
+      <div class="progress-track" role="progressbar" aria-valuemin="1" aria-valuemax="1">
+        <div class="progress-fill"></div>
+      </div>
+      <span class="progress-label">1 / 1</span>
+    </div>
+
+    <script src="../shared/i18n.js"></script>
+    <script src="assets/deck.js"></script>
+    <script src="assets/ui-strings.js"></script>
+    <script>
+      // Slide order and session grouping. Each id maps to slides/<id>/page.js (template)
+      // and slides/<id>/lang.<lang>.js (text). Titles may be { en, de, it, cs } objects.
+      // The language list lives in ../shared/i18n.js and is shared with the other pages.
+      Deck.start([
+        {
+          id: "s1",
+          title: { en: "Introduction", de: "Einführung", it: "Introduzione", cs: "Úvod" },
+          short: { en: "Introduction", de: "Einführung", it: "Introduzione", cs: "Úvod" },
+          slides: [
+            "s1/01-title",
+            "s1/02-agentic-engineering",
+            "s1/03-who-offers-what",
+            "s1/04-agentic-bridge",
+          ],
+        },
+        {
+          id: "s2",
+          title: { en: "Agentic Engineering Explained", de: "Agentic Engineering erklärt", it: "Agentic Engineering spiegato", cs: "Agentic Engineering vysvětleno" },
+          short: { en: "Agentic Engineering", de: "Agentic Engineering", it: "Agentic Engineering", cs: "Agentic Engineering" },
+          slides: [
+            "s2/01-title",
+            "s2/02-agent-architecture",
+            "s2/03-harness-surfaces",
+            "s2/04-agent-loop-and-plan-mode",
+            "s2/05-subagents",
+            "s2/06-sessions-and-memory",
+            "s2/07-models-and-costs",
+          ],
+        },
+        {
+          id: "s3",
+          title: { en: "Tools", de: "Tools", it: "Tool", cs: "Nástroje" },
+          short: { en: "Tools", de: "Tools", it: "Tool", cs: "Nástroje" },
+          slides: [
+            "s3/01-title",
+            "s3/02-mcp",
+          ],
+        },
+        {
+          id: "s4",
+          title: { en: "Customizations", de: "Anpassungen", it: "Personalizzazioni", cs: "Přizpůsobení" },
+          short: { en: "Customizations", de: "Anpassungen", it: "Personalizzazioni", cs: "Přizpůsobení" },
+          slides: [
+            "s4/01-title",
+            "s4/02-overview-terminology",
+            "s4/03-project-structure",
+            "s4/04-instructions",
+            "s4/05-agents-md",
+            "s4/06-skills-what",
+            "s4/07-skills-activation",
+            "s4/08-skills-anatomy",
+            "s4/09-custom-agents",
+            "s4/10-agent-anatomy",
+            "s4/11-plugins-and-marketplaces",
+          ],
+        },
+        {
+          id: "s5",
+          title: { en: "as-cli · Deterministic Tooling", de: "as-cli · Deterministisches Tooling", it: "as-cli · Tooling deterministico", cs: "as-cli · Deterministický tooling" },
+          short: { en: "as-cli", de: "as-cli", it: "as-cli", cs: "as-cli" },
+          slides: [
+            "s5/01-title",
+            "s5/02-why-cli",
+            "s5/03-cli-vs-mcp-vs-handediting",
+            "s5/04-demo-divider",
+            "s5/05-demo",
+            "s5/06-wrapup",
+          ],
+        },
+      ]);
+    </script>
+  </body>
+</html>

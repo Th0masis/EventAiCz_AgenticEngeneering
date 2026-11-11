@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Commands: saved, reusable prompts",
+  eyebrow: "Customizations · Commands",
+  title: "Commands: reusable prompts",
+  p1: "Assignments, routines, tasks. Also known as slash commands or prompt files.",
+  label1: "What and when",
+  li1: "A <strong>tested prompt</strong>, stored as a file and started with <code>/name</code>.",
+  li2: "Good for routines: code reviews, release notes, commit messages.",
+  li3: "Formats are <strong>harness-specific</strong>: <code>.claude/commands/*.md</code>, <code>.github/prompts/*.prompt.md</code>, plugin <code>commands/</code>.",
+  li4: "<strong>Trend:</strong> skills can also be called with <code>/skill-name</code>. Lasting knowledge → skill; personal routines → command.",
+  li5: "<strong>Meta-prompting:</strong> after a good session, ask the agent to turn it into a command or skill.",
+  codeCaption1: "plugins/as-skills/commands/branch-code-review.md (excerpt)",
+  strong1: "Usage",
+  p2: "Type <code>/</code> in the chat to see the available commands. The text after the command becomes the argument.",
+});

@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "Modely, thinking effort a náklady",
+  eyebrow: "Agentic Engineering · Modely a uvažování",
+  title: "Modely, Thinking Effort &amp; náklady",
+  label1: "Druhy modelů",
+  li1: "<strong>Malé, rychlé modely</strong>: levné a rychlé, pro jednoduché úpravy a dotazy.",
+  li2: "<strong>Frontier modely</strong>: nejsilnější, pro plánování, ladění a větší změny.",
+  li3: "Přizpůsobte model úkolu.",
+  label2: "Thinking Effort: rychlost versus hloubka",
+  li4: "Vyšší úsilí obvykle pomáhá při ladění více kroků, plánování a refaktoringu, ale je pomalejší a spotřebuje více tokenů.",
+  li5: "Pro jednoduché úpravy bývá nižší úsilí rychlejší a má jen malou nevýhodu.",
+  label3: "Co řídí náklady",
+  li6: "Účtuje se podle <strong>tokenů</strong>, požadavků nebo kreditů. Silnější modely stojí víc.",
+  li7: "Každý požadavek znovu odesílá <strong>celý kontext</strong>: dlouhé relace se prodražují.",
+  li8: "Vyšší <strong>thinking effort</strong> vytváří více tokenů.",
+  strong1: "Dostupnost",
+  p1: "Závisí na vašem tarifu a firemních pravidlech.",
+});

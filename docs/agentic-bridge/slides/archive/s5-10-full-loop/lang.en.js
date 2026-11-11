@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "The as-cli loop: plan, implement, verify and test",
+  eyebrow: "as-cli · The full loop",
+  title: "The full loop: Plan → Implement → Verify → Test",
+  h41: "Plan",
+  p1: "Facts about the project and the installed AS version",
+  h42: "Implement",
+  p2: "Structure changed by AS itself; code written with skills",
+  h43: "Verify",
+  p3: "The build decides",
+  h44: "Test",
+  p4: "Simulate, then check the running target and the HMI",
+  strong1: "Iterate, then review",
+  p5: "A build error or a failed test goes straight back into the context. The agent fixes it and runs the loop again. Once every check passes, <strong>you review the changes and test results</strong>.",
+});

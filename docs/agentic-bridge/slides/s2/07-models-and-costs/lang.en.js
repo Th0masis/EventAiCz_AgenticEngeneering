@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "Models, thinking effort and costs",
+  eyebrow: "Agentic Engineering · Models and reasoning",
+  title: "Models, thinking effort &amp; costs",
+  label1: "Kinds of models",
+  li1: "<strong>Small, fast models</strong>: cheap and quick, for simple edits and questions.",
+  li2: "<strong>Frontier models</strong>: strongest, for planning, debugging and larger changes.",
+  li3: "Match the model to the task.",
+  label2: "Thinking effort: speed vs. depth",
+  li4: "Higher effort helps with multi-step debugging, planning and refactoring, but is slower and uses more tokens.",
+  li5: "For simple edits, lower effort is often faster with little downside.",
+  label3: "What drives the cost",
+  li6: "Billing by <strong>tokens</strong>, requests or credits. Stronger models cost more.",
+  li7: "Every request resends the <strong>whole context</strong>: long sessions get expensive.",
+  li8: "Higher <strong>thinking effort</strong> produces more tokens.",
+  strong1: "Availability",
+  p1: "Depends on your plan and company policy.",
+});

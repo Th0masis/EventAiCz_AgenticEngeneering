@@ -1,0 +1,16 @@
+I18N.strings({
+  aria: "Aufbau eines Custom Agents",
+  eyebrow: "Customizations · Custom Agents",
+  title: "Aufbau eines Custom Agents",
+  codeCaption1: "Beispiel einer Agent-Datei",
+  label1: "1. Identität",
+  li1: "<code>name</code> und <code>description</code>: so finden Sie und andere Agents ihn.",
+  label2: "2. Wer ihn starten darf",
+  li2: "<code>user-invocable</code> / <code>disable-model-invocation</code>: nur <em>Sie</em>, nicht ein anderer Agent.",
+  label3: "3. Persona und Auftrag",
+  li3: "Rolle, Verantwortlichkeiten, Lebenszyklus.",
+  label4: "4. Wissen kommt aus einem Skill",
+  li4: "Der Agent bleibt schlank und leitet an einen Skill weiter.",
+  label5: "Weitere gängige Felder",
+  li5: "<code>tools</code>, <code>model</code>, Hand-offs. Die Felder unterscheiden sich je Harness.",
+});

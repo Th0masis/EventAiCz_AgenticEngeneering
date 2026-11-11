@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "2. Implementace: nechat Automation Studio vést evidenci",
+  eyebrow: "as-cli · Celá smyčka",
+  title: "2. Implementace: nechat Automation Studio vést evidenci",
+  codeCaption1: "Strukturální změny přes as-cli",
+  comment1: "# přidat Task a zaregistrovat jej (Package.pkg, Cpu.sw) přes katalog objektů AS",
+  comment2: "# nejdřív technologický balíček, pak knihovny, které na něm závisejí",
+  comment3: "# mappView: widgety a bindingy ověřené proti nainstalovaným schématům",
+  comment4: "# došlo k chybě?",
+  label1: "Proč nechat agenta upravovat XML?",
+  li1: "Agenti často chybují ve <strong>struktuře XML</strong>: chybí registrace, vymyšlené uzly, špatné verze.",
+  li2: "V mappView vymýšlejí typy widgetů, vlastnosti a jednotky.",
+  label2: "Co místo toho dělá as-cli",
+  li3: "Používá <strong>vlastní funkce</strong> programu Automation Studio (AS-API).",
+  li4: "<strong>Ověřuje proti nainstalovaným schématům</strong>: neplatný obsah je odmítnut, nic nesprávného se nezapíše.",
+  label3: "Kód stále píše agent",
+  li5: "Structured Text v <code>.st</code>, <code>.var</code>, <code>.typ</code>, podle skillu <code>structured-text</code>.",
+});

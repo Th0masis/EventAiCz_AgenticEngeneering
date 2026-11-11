@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Comandi: prompt salvati e riutilizzabili",
+  eyebrow: "Personalizzazioni · Comandi",
+  title: "Comandi: prompt riutilizzabili",
+  p1: "Incarichi, routine, compiti. Noti anche come slash command o prompt file.",
+  label1: "Cosa e quando",
+  li1: "Un <strong>prompt collaudato</strong>, salvato come file e avviato con <code>/name</code>.",
+  li2: "Adatto alle routine: code review, note di rilascio, messaggi di commit.",
+  li3: "I formati sono <strong>specifici dell'harness</strong>: <code>.claude/commands/*.md</code>, <code>.github/prompts/*.prompt.md</code>, <code>commands/</code> dei plugin.",
+  li4: "<strong>Tendenza:</strong> le skill si possono richiamare anche con <code>/skill-name</code>. Conoscenza duratura → skill; routine personali → comando.",
+  li5: "<strong>Meta-prompting:</strong> dopo una buona sessione, chiedere all'agente di trasformarla in un comando o in una skill.",
+  codeCaption1: "plugins/as-skills/commands/branch-code-review.md (estratto)",
+  strong1: "Utilizzo",
+  p2: "Digitare <code>/</code> in chat per vedere i comandi disponibili. Il testo dopo il comando diventa l'argomento.",
+});

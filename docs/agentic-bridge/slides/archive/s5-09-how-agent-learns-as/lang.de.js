@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Woher der Agent weiß, welchen as-cli Befehl er nutzen soll",
+  eyebrow: "as-cli · Befehlsfindung",
+  title: "Woher der Agent weiß, welchen as-cli Befehl er nutzen soll",
+  label1: "1 · AGENTS.md (Vorlage)",
+  li1: "Ordnet jede Operation einer <code>as</code> Befehlsfamilie zu: <em>„Use the installed <code>as</code> command instead of recalling project metadata.“</em>",
+  label2: "2 · Skills nennen die exakten Befehle",
+  li2: "Jeder B&amp;R Skill hat einen Abschnitt <strong>Required tools</strong>.",
+  label3: "3 · Selbst entdecken",
+  li3: "<code>as help &lt;command&gt;</code> und <code>--help</code> bei jedem Unterbefehl.",
+  label4: "4 · Maschinenlesbare Ergebnisse",
+  li4: "<code>--format json</code> und Exit-Codes: kein Raten, ob es geklappt hat.",
+  codeCaption1: "plugins/as-skills/skills/structured-text/SKILL.md (Auszug)",
+  codeCaption2: "template/AGENTS.md (Auszug)",
+});

@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Shrnutí Session 4",
+  dataTitle: "Shrnutí Session 4",
+  eyebrow: "Shrnutí Session 4",
+  h11: "Dotazy &amp; další kroky",
+  aria2: "Struktura diskuse",
+  h31: "Dotazy",
+  p1: "Máte nějaké dotazy?",
+  h32: "Jako další: Session 5 · as-cli",
+  li1: "Proč se CLI nástroje hodí k agentic engineering",
+  li2: "Deterministické nástroje",
+  li3: "as-cli: co to je a co umí",
+  li4: "Celý cyklus: Plánování → Implementace → Verifikace → Testování",
+  li5: "Plné živé demo na ARsim",
+});

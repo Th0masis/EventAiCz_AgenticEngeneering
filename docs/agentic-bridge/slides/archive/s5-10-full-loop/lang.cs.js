@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Smyčka as-cli: plánovat, implementovat, ověřovat a testovat",
+  eyebrow: "as-cli · Celá smyčka",
+  title: "Celá smyčka: Plán → Implementace → Ověření → Test",
+  h41: "Plán",
+  p1: "Fakta o projektu a o nainstalované verzi AS",
+  h42: "Implementace",
+  p2: "Struktura upravená přímo nástrojem AS; kód napsaný pomocí skills",
+  h43: "Ověření",
+  p3: "Rozhoduje build",
+  h44: "Test",
+  p4: "Simulace, pak kontrola běžícího cíle a HMI",
+  strong1: "Iterovat, pak zkontrolovat",
+  p5: "Chyba buildu nebo neúspěšný test se vrací rovnou do kontextu. Agent ji opraví a smyčku spustí znovu. Jakmile všechny kontroly projdou, <strong>zkontrolujete změny a výsledky testů</strong>.",
+});

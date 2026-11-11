@@ -1,0 +1,16 @@
+I18N.strings({
+  aria: "Come lavora un agente con un progetto AS",
+  eyebrow: "as-cli · Perché i tool CLI?",
+  title: "Come lavora un agente con un progetto AS",
+  label1: "Scrive direttamente i file",
+  li1: "<strong>Quando</strong>: codice applicativo.",
+  li2: "<strong>Esempio</strong>: Structured Text in <code>LiftJog.st</code>, guidato da una skill.",
+  label2: "Usa un server MCP",
+  li3: "<strong>Quando</strong>: servono conoscenza o un sistema esterno.",
+  li4: "<strong>Esempio</strong>: chiedere al server MCP B&amp;R il significato di un errore di build; usare l'HMI con Playwright.",
+  label3: "Esegue il tool CLI",
+  li5: "<strong>Quando</strong>: modifica la struttura del progetto o serve un risultato verificato.",
+  li6: "<strong>Esempio</strong>: <code>as logical add</code>, <code>as build</code>, <code>as plc var read</code>.",
+  strong1: "Agentic Bridge li usa tutti e tre",
+  p1: "Le skill guidano il codice. MCP fornisce la conoscenza. <strong>as-cli</strong> esegue e verifica le modifiche.",
+});

@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Session 4 wrap-up",
+  dataTitle: "Session 4 wrap-up",
+  eyebrow: "Session 4 Wrap-Up",
+  h11: "Questions &amp; Next Steps",
+  aria2: "Discussion structure",
+  h31: "Questions",
+  p1: "Any questions?",
+  h32: "Up next: Session 5 · as-cli",
+  li1: "Why CLI tools fit agentic engineering",
+  li2: "Deterministic tooling",
+  li3: "as-cli: what it is and what it can do",
+  li4: "The full loop: Plan → Implement → Verify → Test",
+  li5: "Full live demo on ARsim",
+});

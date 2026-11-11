@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Riepilogo della sessione 4",
+  dataTitle: "Riepilogo della sessione 4",
+  eyebrow: "Riepilogo sessione 4",
+  h11: "Domande &amp; prossimi passi",
+  aria2: "Struttura della discussione",
+  h31: "Domande",
+  p1: "Ci sono domande?",
+  h32: "Prossima sessione 5 · as-cli",
+  li1: "Perché i tool CLI sono adatti all'agentic engineering",
+  li2: "Tooling deterministico",
+  li3: "as-cli: cos'è e cosa può fare",
+  li4: "Il ciclo completo: Plan → Implement → Verify → Test",
+  li5: "Demo dal vivo completa su ARsim",
+});

@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "AGENTS.md: a README for agents",
+  eyebrow: "Customizations · AGENTS.md",
+  title: "AGENTS.md: a README for agents",
+  label1: "What and why",
+  li1: "Plain Markdown, no required fields. README.md is for humans; <strong>AGENTS.md is the extra context an agent needs</strong>.",
+  li2: "Common sections: overview, build and test commands, code style, security.",
+  li3: "The <strong>B&amp;R template</strong> adds architecture, invariants, skill routing and <code>as</code> commands.",
+  sources1: "Source: agents.md",
+  codeCaption1: "template/AGENTS.md (excerpt)",
+  comment1: "← as-skills plugin + as-cli on PATH",
+  comment2: "← Logical/ vs Physical/, dependencies",
+  comment3: "← mapp Link rules",
+  comment4: "← apply to every task",
+  comment5: "← file/ending → skill name",
+  comment6: "← deterministic commands",
+  comment7: "← plan → change → as build",
+});

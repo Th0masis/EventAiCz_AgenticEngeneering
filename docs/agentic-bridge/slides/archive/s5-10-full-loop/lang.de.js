@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Die as-cli Schleife: Planen, Implementieren, Verifizieren und Testen",
+  eyebrow: "as-cli · Die ganze Schleife",
+  title: "Die ganze Schleife: Planen → Implementieren → Verifizieren → Testen",
+  h41: "Planen",
+  p1: "Fakten zum Projekt und zur installierten AS-Version",
+  h42: "Implementieren",
+  p2: "Struktur von AS selbst geändert; Code mit Skills geschrieben",
+  h43: "Verifizieren",
+  p3: "Der Build entscheidet",
+  h44: "Testen",
+  p4: "Simulieren, dann Zielsystem und HMI prüfen",
+  strong1: "Iterieren, dann prüfen",
+  p5: "Ein Build-Fehler oder ein fehlgeschlagener Test geht direkt zurück in den Kontext. Der Agent behebt ihn und startet die Schleife erneut. Sobald alle Prüfungen bestehen, <strong>prüfen Sie die Änderungen und Testergebnisse</strong>.",
+});

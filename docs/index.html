@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic Engineering</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="agentic-bridge/assets/agentic-bridge-icon-64.png">
+  <style>
+    @font-face {
+      font-family: "ABBvoice";
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url("https://prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net/content/ABBvoice_W_Lt.woff2") format("woff2");
+    }
+
+    @font-face {
+      font-family: "ABBvoice";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url("https://prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net/content/ABBvoice_W_Rg.woff2") format("woff2");
+    }
+
+    @font-face {
+      font-family: "ABBvoice";
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url("https://prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net/content/ABBvoice_W_Md.woff2") format("woff2");
+    }
+
+    @font-face {
+      font-family: "ABBvoice";
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url("https://prod-cdn-library-abblibrary-ebgjc7dxe6ghgfem.a01.azurefd.net/content/ABBvoice_W_Bd.woff2") format("woff2");
+    }
+
+    :root {
+      --bg: #f7f1e5;
+      --surface: rgba(255,255,255,0.88);
+      --ink: #16202a;
+      --muted: #56606a;
+      --accent-orange: #ff8800;
+      --accent-teal: #0f766e;
+      --shadow: 0 24px 70px rgba(22,32,42,0.12);
+      --radius: 22px;
+    }
+
+    * { box-sizing: border-box; margin: 0; }
+
+    body {
+      font-family: "ABBvoice", "Segoe UI", sans-serif;
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background:
+        radial-gradient(circle at top left, rgba(15,118,110,0.10), transparent 26%),
+        radial-gradient(circle at top right, rgba(255,136,0,0.12), transparent 30%),
+        linear-gradient(180deg, #fffaf2 0%, var(--bg) 100%);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-family: "ABBvoice", "Segoe UI", sans-serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      max-width: 860px;
+      width: 100%;
+    }
+
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2.5rem 2rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+      color: var(--ink);
+      transition: transform 260ms ease, box-shadow 260ms ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 32px 80px rgba(22,32,42,0.18);
+    }
+
+    .card-accent {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 5px;
+    }
+
+    .card--llm .card-accent { background: linear-gradient(90deg, var(--accent-teal), #2563eb); }
+    .card--bridge .card-accent { background: linear-gradient(90deg, var(--accent-orange), #ffb84d); }
+
+    .card-icon {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .card--llm .card-icon {
+      background: linear-gradient(135deg, rgba(15,118,110,0.12), rgba(37,99,235,0.10));
+    }
+
+    .card--bridge .card-icon {
+      background: linear-gradient(135deg, rgba(255,136,0,0.12), rgba(255,184,77,0.10));
+    }
+
+    .card-icon img {
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+    }
+
+    .card-icon svg {
+      width: 56px;
+      height: 56px;
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-family: "ABBvoice", "Segoe UI", sans-serif;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+      flex: 1;
+    }
+
+    .card .cta {
+      display: inline-block;
+      padding: 0.6rem 1.6rem;
+      border-radius: 40px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      letter-spacing: 0.02em;
+      transition: background 200ms ease;
+    }
+
+    .card--llm .cta {
+      background: var(--accent-teal);
+      color: #fff;
+    }
+    .card--llm:hover .cta { background: #0e6860; }
+
+    .card--bridge .cta {
+      background: var(--accent-orange);
+      color: #fff;
+    }
+    .card--bridge:hover .cta { background: #e07600; }
+
+    .lang-select--floating {
+      position: fixed;
+      top: 1.25rem;
+      right: 1.25rem;
+      z-index: 10;
+    }
+  </style>
+  <link rel="stylesheet" href="shared/lang-select.css">
+</head>
+<body>
+  <!-- Content is injected from home/page.js and home/lang.<code>.js -->
+  <script src="shared/i18n.js"></script>
+  <script>
+    (async () => {
+      document.body.insertAdjacentHTML("afterbegin", await I18N.loadPage("home", "home"));
+      I18N.use("home");
+      document.title = I18N.interpolate("home", "{{docTitle}}");
+      const select = I18N.createSelect();
+      select.classList.add("lang-select--floating");
+      document.body.appendChild(select);
+      I18N.decorateLinks();
+      window.addEventListener("keydown", (event) => {
+        if ((event.key === "l" || event.key === "L") && !event.altKey && !event.ctrlKey && !event.metaKey && !/^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName)) I18N.cycleLanguage();
+      });
+    })();
+  </script>
+</body>
+</html>

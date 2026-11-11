@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Shrnutí Session 1",
+  dataTitle: "Shrnutí Session 1",
+  eyebrow: "Shrnutí Session 1",
+  h11: "Otázky &amp; další kroky",
+  aria2: "Struktura diskuse",
+  h31: "Otázky",
+  p1: "Máte nějaké dotazy?",
+  h32: "Příště: Session 2 · Agentic Engineering vysvětlen",
+  li1: "Jak harness funguje: LLM, kontextové okno, nástroje",
+  li2: "Workflow agentů a režim Plan",
+  li3: "Subagents a orchestrace",
+  li4: "Správa relací agentů a jejich paměti",
+  li5: "Úsilí při uvažování, modely a náklady",
+});

@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "Modelle, Thinking Effort und Kosten",
+  eyebrow: "Agentic Engineering · Modelle und Reasoning",
+  title: "Modelle, Thinking Effort &amp; Kosten",
+  label1: "Arten von Modellen",
+  li1: "<strong>Kleine, schnelle Modelle</strong>: günstig und flott, für einfache Änderungen und Fragen.",
+  li2: "<strong>Frontier-Modelle</strong>: am leistungsstärksten, für Planung, Debugging und größere Änderungen.",
+  li3: "Das Modell zur Aufgabe passend wählen.",
+  label2: "Thinking Effort: Tempo vs. Tiefe",
+  li4: "Höherer Aufwand hilft meist bei mehrstufigem Debugging, Planung und Refactoring, ist aber langsamer und verbraucht mehr Tokens.",
+  li5: "Für einfache Änderungen ist ein niedrigerer Aufwand oft schneller und kaum nachteilig.",
+  label3: "Was die Kosten treibt",
+  li6: "Abrechnung nach <strong>Tokens</strong>, Anfragen oder Credits. Stärkere Modelle kosten mehr.",
+  li7: "Jede Anfrage sendet den <strong>gesamten Kontext</strong> erneut: Lange Sitzungen werden teuer.",
+  li8: "Höheres <strong>Thinking Effort</strong> erzeugt mehr Tokens.",
+  strong1: "Verfügbarkeit",
+  p1: "Hängt von Ihrem Tarif und der Unternehmensrichtlinie ab.",
+});

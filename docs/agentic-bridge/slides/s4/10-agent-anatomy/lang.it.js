@@ -1,0 +1,16 @@
+I18N.strings({
+  aria: "Anatomia di un custom agent",
+  eyebrow: "Personalizzazioni · Custom agent",
+  title: "Anatomia di un custom agent",
+  codeCaption1: "Esempio di file agente",
+  label1: "1. Identità",
+  li1: "<code>name</code> e <code>description</code>: come lo trovano le persone e gli altri agenti.",
+  label2: "2. Chi può avviarlo",
+  li2: "<code>user-invocable</code> / <code>disable-model-invocation</code>: solo <em>Lei</em>, non un altro agente.",
+  label3: "3. Persona e missione",
+  li3: "Ruolo, responsabilità, ciclo di vita.",
+  label4: "4. La conoscenza viene da una skill",
+  li4: "L'agente resta snello e rimanda a una skill.",
+  label5: "Altri campi comuni",
+  li5: "<code>tools</code>, <code>model</code>, hand-off. I campi variano a seconda dell'harness.",
+});

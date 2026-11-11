@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "How the agent knows which as-cli command to use",
+  eyebrow: "as-cli · Command discovery",
+  title: "How the agent knows which as-cli command to use",
+  label1: "1 · AGENTS.md (template)",
+  li1: "Maps each operation to an <code>as</code> command family: <em>\"Use the installed <code>as</code> command instead of recalling project metadata.\"</em>",
+  label2: "2 · Skills name the exact commands",
+  li2: "Each B&amp;R skill has a <strong>Required tools</strong> section.",
+  label3: "3 · Self-discovery",
+  li3: "<code>as help &lt;command&gt;</code> and <code>--help</code> on every subcommand.",
+  label4: "4 · Machine-readable results",
+  li4: "<code>--format json</code> and exit codes: no guessing whether it worked.",
+  codeCaption1: "plugins/as-skills/skills/structured-text/SKILL.md (excerpt)",
+  codeCaption2: "template/AGENTS.md (excerpt)",
+});

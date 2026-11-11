@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "Modelli, livello di ragionamento e costi",
+  eyebrow: "Agentic Engineering · Modelli e ragionamento",
+  title: "Modelli, ragionamento &amp; costi",
+  label1: "Tipi di modelli",
+  li1: "<strong>Modelli piccoli e veloci</strong>: economici e rapidi, per modifiche e domande semplici.",
+  li2: "<strong>Modelli frontier</strong>: i più potenti, per pianificazione, debug e modifiche più ampie.",
+  li3: "Adeguare il modello al task.",
+  label2: "Livello di ragionamento: velocità o profondità",
+  li4: "Un livello più alto di solito aiuta con debug in più passaggi, pianificazione e refactoring, ma è più lento e consuma più token.",
+  li5: "Per modifiche semplici, un livello più basso è spesso più veloce con pochi svantaggi.",
+  label3: "Cosa determina il costo",
+  li6: "Fatturazione a <strong>token</strong>, richieste o crediti. I modelli più potenti costano di più.",
+  li7: "Ogni richiesta reinvia <strong>l'intero contesto</strong>: le sessioni lunghe diventano costose.",
+  li8: "Un <strong>livello di ragionamento</strong> più alto produce più token.",
+  strong1: "Disponibilità",
+  p1: "Dipende dal piano e dalla policy aziendale.",
+});

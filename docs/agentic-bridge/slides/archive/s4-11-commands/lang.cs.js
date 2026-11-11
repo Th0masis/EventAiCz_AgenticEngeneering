@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Příkazy: uložené, opakovaně použitelné prompty",
+  eyebrow: "Customizations · Příkazy",
+  title: "Příkazy: opakovaně použitelné prompty",
+  p1: "Zadání, rutiny, úkoly. Známé také jako slash příkazy nebo soubory promptů.",
+  label1: "Co a kdy",
+  li1: "Jeden <strong>otestovaný prompt</strong>, uložený jako soubor a spuštěný přes <code>/name</code>.",
+  li2: "Vhodné pro rutiny: code reviews, release notes, commit zprávy.",
+  li3: "Formáty jsou <strong>specifické pro harness</strong>: <code>.claude/commands/*.md</code>, <code>.github/prompts/*.prompt.md</code>, <code>commands/</code> v pluginu.",
+  li4: "<strong>Trend:</strong> skilly lze volat také jako <code>/skill-name</code>. Trvalé znalosti → skill; osobní rutiny → příkaz.",
+  li5: "<strong>Meta-prompting:</strong> po dobré relaci požádejte agenta, aby z ní udělal příkaz nebo skill.",
+  codeCaption1: "plugins/as-skills/commands/branch-code-review.md (výňatek)",
+  strong1: "Použití",
+  p2: "Do chatu napište <code>/</code> a zobrazí se dostupné příkazy. Text za příkazem se stane argumentem.",
+});

@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Zusammenfassung Session 1",
+  dataTitle: "Zusammenfassung Session 1",
+  eyebrow: "Zusammenfassung Session 1",
+  h11: "Fragen &amp; nächste Schritte",
+  aria2: "Struktur der Diskussion",
+  h31: "Fragen",
+  p1: "Haben Sie Fragen?",
+  h32: "Als Nächstes: Session 2 · Agentic Engineering erklärt",
+  li1: "Wie ein Harness arbeitet: LLM, Kontextfenster, Tools",
+  li2: "Agent-Workflows und Plan-Modus",
+  li3: "Subagents und Orchestrierung",
+  li4: "Agent-Sitzungen verwalten und Agentic Memory",
+  li5: "Denkaufwand, Modelle und Kosten",
+});

@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Il ciclo as-cli: pianificare, implementare, verificare e testare",
+  eyebrow: "as-cli · Il ciclo completo",
+  title: "Il ciclo completo: Plan → Implement → Verify → Test",
+  h41: "Plan",
+  p1: "Fatti sul progetto e sulla versione di AS installata",
+  h42: "Implement",
+  p2: "Struttura modificata da AS stesso; codice scritto con le skill",
+  h43: "Verify",
+  p3: "Decide la build",
+  h44: "Test",
+  p4: "Simulare, poi controllare il target in esecuzione e l'HMI",
+  strong1: "Iterare, poi revisionare",
+  p5: "Un errore di build o un test fallito tornano direttamente nel contesto. L'agente lo corregge e ripete il ciclo. Quando tutti i controlli sono superati, <strong>Lei revisiona le modifiche e i risultati dei test</strong>.",
+});

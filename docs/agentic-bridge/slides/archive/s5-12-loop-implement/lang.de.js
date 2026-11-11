@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "2. Implementieren: Automation Studio die Buchführung überlassen",
+  eyebrow: "as-cli · Die ganze Schleife",
+  title: "2. Implementieren: Automation Studio die Buchführung überlassen",
+  codeCaption1: "Strukturänderungen über as-cli",
+  comment1: "# Task hinzufügen und registrieren (Package.pkg, Cpu.sw) über den AS-Objektkatalog",
+  comment2: "# erst das Technologiepaket, dann die davon abhängigen Bibliotheken",
+  comment3: "# mappView: Widgets und Bindings gegen die installierten Schemas geprüft",
+  comment4: "# Fehler gemacht?",
+  label1: "Warum den XML-Code nicht vom Agent bearbeiten lassen?",
+  li1: "Agents machen oft Fehler bei der <strong>XML-Struktur</strong>: fehlende Registrierungen, erfundene Knoten, falsche Versionen.",
+  li2: "In mappView erfinden sie Widget-Typen, Eigenschaften und Einheiten.",
+  label2: "Was as-cli stattdessen tut",
+  li3: "Nutzt die <strong>eigenen Funktionen</strong> von Automation Studio (AS-API).",
+  li4: "<strong>Validiert gegen die installierten Schemas</strong>: ungültiger Inhalt wird abgelehnt, nichts Falsches wird geschrieben.",
+  label3: "Den Code schreibt weiterhin der Agent",
+  li5: "Structured Text in <code>.st</code>, <code>.var</code>, <code>.typ</code>, geführt vom <code>structured-text</code> Skill.",
+});

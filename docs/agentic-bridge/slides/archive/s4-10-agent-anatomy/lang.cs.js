@@ -1,0 +1,16 @@
+I18N.strings({
+  aria: "Anatomie custom agenta",
+  eyebrow: "Customizations · Custom agents",
+  title: "Anatomie custom agenta",
+  codeCaption1: "Příklad souboru agenta",
+  label1: "1. Identita",
+  li1: "<code>name</code> a <code>description</code>: podle nich ho najdete vy i ostatní agenti.",
+  label2: "2. Kdo ho smí spustit",
+  li2: "<code>user-invocable</code> / <code>disable-model-invocation</code>: pouze <em>vy</em>, ne jiný agent.",
+  label3: "3. Persona a poslání",
+  li3: "Pracovní role, odpovědnosti, životní cyklus.",
+  label4: "4. Znalosti přicházejí ze skillu",
+  li4: "Agent zůstává štíhlý a předává práci skillu.",
+  label5: "Další běžná pole",
+  li5: "<code>tools</code>, <code>model</code>, předání. Pole se liší podle harnessu.",
+});

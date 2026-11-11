@@ -1,0 +1,15 @@
+I18N.strings({
+  aria: "Jak agent ví, který příkaz as-cli použít",
+  eyebrow: "as-cli · Objevování příkazů",
+  title: "Jak agent ví, který příkaz as-cli použít",
+  label1: "1 · AGENTS.md (šablona)",
+  li1: "Mapuje každou operaci na rodinu příkazů <code>as</code>: <em>„Use the installed <code>as</code> command instead of recalling project metadata.“</em>",
+  label2: "2 · Skills uvádějí přesné příkazy",
+  li2: "Každý B&amp;R skill má sekci <strong>Požadované nástroje</strong>.",
+  label3: "3 · Samoobjevování",
+  li3: "<code>as help &lt;command&gt;</code> a <code>--help</code> u každého podpříkazu.",
+  label4: "4 · Strojově čitelné výsledky",
+  li4: "<code>--format json</code> a návratové kódy: žádné hádání, zda to fungovalo.",
+  codeCaption1: "plugins/as-skills/skills/structured-text/SKILL.md (úryvek)",
+  codeCaption2: "template/AGENTS.md (úryvek)",
+});

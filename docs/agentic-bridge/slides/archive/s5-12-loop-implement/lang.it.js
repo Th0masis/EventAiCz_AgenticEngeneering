@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "2. Implement: lasciare la contabilità ad Automation Studio",
+  eyebrow: "as-cli · Il ciclo completo",
+  title: "2. Implement: lasciare la contabilità ad Automation Studio",
+  codeCaption1: "Modifiche strutturali tramite as-cli",
+  comment1: "# aggiunge un task e lo registra (Package.pkg, Cpu.sw) tramite il catalogo oggetti di AS",
+  comment2: "# prima il technology package, poi le librerie che ne dipendono",
+  comment3: "# mappView: widget e binding verificati con gli schemi installati",
+  comment4: "# un errore?",
+  label1: "Perché non far modificare l'XML all'agente?",
+  li1: "Gli agenti sbagliano spesso la <strong>struttura XML</strong>: registrazioni mancanti, nodi inventati, versioni errate.",
+  li2: "In mappView inventano tipi di widget, proprietà e unità.",
+  label2: "Cosa fa invece as-cli",
+  li3: "Usa le <strong>funzioni proprie</strong> di Automation Studio (AS-API).",
+  li4: "<strong>Valida con gli schemi installati</strong>: il contenuto non valido viene rifiutato, nulla di errato viene scritto.",
+  label3: "Il codice lo scrive ancora l'agente",
+  li5: "Structured Text in <code>.st</code>, <code>.var</code>, <code>.typ</code>, guidato dalla skill <code>structured-text</code>.",
+});

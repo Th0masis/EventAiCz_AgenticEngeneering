@@ -1,0 +1,18 @@
+I18N.strings({
+  aria: "AGENTS.md: README pro agenty",
+  eyebrow: "Customizations · AGENTS.md",
+  title: "AGENTS.md: README pro agenty",
+  label1: "Co a proč",
+  li1: "Prostý Markdown bez povinných polí. README.md je určeno lidem; <strong>AGENTS.md je doplňující kontext, který agent potřebuje</strong>.",
+  li2: "Běžné sekce: přehled, příkazy pro build a testy, styl kódu, bezpečnost.",
+  li3: "<strong>Šablona B&amp;R</strong> doplňuje architekturu, invarianty, směrování na skilly a příkazy <code>as</code>.",
+  sources1: "Zdroj: agents.md",
+  codeCaption1: "template/AGENTS.md (úryvek)",
+  comment1: "← plugin as-skills + as-cli v PATH",
+  comment2: "← Logical/ vs Physical/, závislosti",
+  comment3: "← pravidla mapp Link",
+  comment4: "← platí pro každý úkol",
+  comment5: "← soubor/přípona → název skillu",
+  comment6: "← deterministické příkazy",
+  comment7: "← plán → změna → as build",
+});
